@@ -1,0 +1,258 @@
+
+
+https://api.myjson.com/bins/m0tr5
+{
+
+
+  "gamesInfo": {
+  
+    
+    "games": [
+    
+    {
+    "firstTeam": "U1",
+    "SecondTeam": "U4",
+    "firstTeamLogo": "images/team/logo1.png",
+    "SecondTeamLogo": "images/team/logo4.png",
+    "date": "01/09/2019",
+    "time": "9:30 a.m.",
+    "location": "AJ Katzenmaier",
+    "address": "24 W. Walton St., Chicago, IL 60610",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2snl!4v1556026223941!5m2!1sen!2snl"
+    },
+    
+    {
+    "firstTeam": "U3",
+    "SecondTeam": "U2",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo2.png",
+    "date": "01/09/2019",
+    "time": "1:00 p.m.",
+    "location": "Greenbay",
+    "address": "1734 N. Orleans St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026477581!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U5",
+    "SecondTeam": "U6",
+    "firstTeamLogo": "images/team/logo5.png",
+    "SecondTeamLogo": "images/team/logo6.png",
+    "date": "08/09/2019",
+    "time": "9:30 a.m.",
+    "location": "Howard A Yeager",
+    "address": "2245 N. Southport Ave., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.585683085616!2d-87.66511458455746!3d41.92326457921871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026536833!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U6",
+    "SecondTeam": "U1",
+    "firstTeamLogo": "images/team/logo6.png",
+    "SecondTeamLogo": "images/team/logo1.png",
+    "date": "08/09/2019",
+    "time": "1:00 p.m.",
+    "location": "Marjorie P Hart",
+    "address": "2625 N. Orchard St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.291914658432!2d-87.64808628455727!3d41.92957827921814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026563506!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U2",
+    "SecondTeam": "U4",
+    "firstTeamLogo": "images/team/logo2.png",
+    "SecondTeamLogo": "images/team/logo4.png",
+    "date": "15/09/2019",
+    "time": "9:30 a.m.",
+    "location": "North Elementary",
+    "address": "1409 N. Ogden Ave., Chicago, IL 60610",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.337799849213!2d-87.64837698455796!3d41.907096479219874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026586500!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U3",
+    "SecondTeam": "U5",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo5.png",
+    "date": "15/09/2019",
+    "time": "1:00 p.m.",
+    "location": "AJ Katzenmaier",
+    "address": "24 W. Walton St., Chicago, IL 60610",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2snl!4v1556026223941!5m2!1sen!2snl"
+    },
+    
+        {
+    "firstTeam": "U1",
+    "SecondTeam": "U3",
+    "firstTeamLogo": "images/team/logo1.png",
+    "SecondTeamLogo": "images/team/logo3.png",
+    "date": "22/09/2019",
+    "time": "9:30 a.m.",
+    "location": "South Elementary",
+    "address": "2101 N. Fremont St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7479505250676!2d-87.65355538455758!3d41.9197767792189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026608989!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U2",
+    "SecondTeam": "U6",
+    "firstTeamLogo": "images/team/logo2.png",
+    "SecondTeamLogo": "images/team/logo6.png",
+    "date": "22/09/2019",
+    "time": "1:00 p.m.",
+    "location": "Howard A Yeager",
+    "address": "2245 N. Southport Ave., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.585683085616!2d-87.66511458455746!3d41.92326457921871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026536833!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U4",
+    "SecondTeam": "U5",
+    "firstTeamLogo": "images/team/logo4.png",
+    "SecondTeamLogo": "images/team/logo5.png",
+    "date": "29/09/2019",
+    "time": "9:30 a.m.",
+    "location": "Greenbay",
+    "address": "1734 N. Orleans St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026477581!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U2",
+    "SecondTeam": "U5",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo2.png",
+    "date": "06/10/2019",
+    "time": "9:30 a.m.",
+    "location": "Marjorie P Hart",
+    "address": "2625 N. Orchard St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.291914658432!2d-87.64808628455727!3d41.92957827921814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026563506!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U1",
+    "SecondTeam": "U6",
+    "firstTeamLogo": "images/team/logo1.png",
+    "SecondTeamLogo": "images/team/logo6.png",
+    "date": "06/10/2019",
+    "time": "1:00 p.m.",
+    "location": "South Elementary",
+    "address": "2101 N. Fremont St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7479505250676!2d-87.65355538455758!3d41.9197767792189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026608989!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U3",
+    "SecondTeam": "U4",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo4.png",
+    "date": "13/10/2019",
+    "time": "9:30 a.m.",
+    "location": "Howard A Yeager",
+    "address": "2245 N. Southport Ave., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.585683085616!2d-87.66511458455746!3d41.92326457921871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026536833!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U5",
+    "SecondTeam": "U1",
+    "firstTeamLogo": "images/team/logo5.png",
+    "SecondTeamLogo": "images/team/logo1.png",
+    "date": "13/10/2019",
+    "time": "1:00 p.m.",
+    "location": "Greenbay",
+    "address": "1734 N. Orleans St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026477581!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U6",
+    "SecondTeam": "U3",
+    "firstTeamLogo": "images/team/logo6.png",
+    "SecondTeamLogo": "images/team/logo3.png",
+    "date": "20/10/2019",
+    "time": "9:30 a.m.",
+    "location": "North Elementary",
+    "address": "1409 N. Ogden Ave., Chicago, IL 60610",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.337799849213!2d-87.64837698455796!3d41.907096479219874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026586500!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U2",
+    "SecondTeam": "U4",
+    "firstTeamLogo": "images/team/logo2.png",
+    "SecondTeamLogo": "images/team/logo4.png",
+    "date": "20/10/2019",
+    "time": "1:00 p.m.",
+    "location": "Marjorie P Hart",
+    "address": "2625 N. Orchard St., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.291914658432!2d-87.64808628455727!3d41.92957827921814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026563506!5m2!1snl!2snl"
+    },
+    
+        {
+    "firstTeam": "U3",
+    "SecondTeam": "U1",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo2.png",
+    "date": "27/10/2019",
+    "time": "9:30 a.m.",
+    "location": "AJ Katzenmaier",
+    "address": "24 W. Walton St., Chicago, IL 60610",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2snl!4v1556026223941!5m2!1sen!2snl"
+    },
+    
+        {
+    "firstTeam": "U5",
+    "SecondTeam": "U6",
+    "firstTeamLogo": "images/team/logo3.png",
+    "SecondTeamLogo": "images/team/logo2.png",
+    "date": "27/10/2019",
+    "time": "1:00 p.m.",
+    "location": "Howard A Yeager",
+    "address": "2245 N. Southport Ave., Chicago, IL 60614",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.585683085616!2d-87.66511458455746!3d41.92326457921871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+Verenigde+Staten!5e0!3m2!1snl!2snl!4v1556026536833!5m2!1snl!2snl"
+    }
+    
+    ] 
+  
+  },
+  
+  "teams": [
+   {
+   "name": "U1", "teamLogo": "images/team/logo1.png", 
+   "photo": "images/info/team1.jpg",
+   "info": 'Athletic Club U1 was established on 4 June 1948. The football team of U1 joined the Football Association in 1953. On 29 May 2018 the football team of U1  became a profesional for-profit football company. U1 is one of the most popular and historically successful football clubs in Europe, having won 20 national championships, 14 cups and 16 super cups. U1 holds an outstanding record of 14 championships in two decades, between 1970–1989.'
+   },
+   {
+   "name": "U2", "teamLogo": "images/team/logo2.png", 
+   "photo": "images/info/team2.jpg",
+    "info": 'U2 is a professional football club. U2 is the most popular and the most successful football team in the country with an overall tally of 28 national championships, 21 cups, and 13 super cups. U2 greatest moment in the European competitions occurred in the 2011–12 season, when the club participated in the group stages of the 2011–12 UEFA Champions League. The club achieved qualification for the quarter-finals of the competition by topping the group and eliminating Olympique Lyonnais in the last 16.'},
+   {
+   "name": "U3", "teamLogo": "images/team/logo3.png", 
+   "photo": "images/info/team3.jpg",
+    "info": 'U3 is a Young sports club, based in Central. It has football, basketball and volleyball teams. Founded in 1954, U3 currently plays in the Central First  Division and has won the championship title 3 times, the cup 9 times and the Super Cup 3 times. U3 is considered as one of the most successful clubs of the island and the second most successful in Central with 15 major trophies and 4 participations in the Europa League Group Stages.'
+    },
+   {
+   "name": "U4", "teamLogo": "images/team/logo4.png", 
+    "photo": "images/info/team4.jpg",
+    "info": 'U4 is a professional football club based in Central. Part of the major multi-sport club U3 CFP, their name was inspired from the ancient Olympic Games and along with the clubs emblem. Founded on 10 March 1925, U4 is the most successful club in Central football history, having won 44 League titles, 27 Cups and 4 Super Cups, all records. Τotalling 75 national trophies, U4 is 9th in the world in total titles won by a football club.'
+    },
+   {
+   "name": "U5", "teamLogo": "images/team/logo5.png", 
+   "photo": "images/info/team5.jpg", 
+   "info": 'U5 is a football club based in Central. The club is commonly known in European competitions as U5. Established in Central in 1924 by Greek refugees from Constantinople in the wake of the Greco-Turkish War 1919–1922, U5 has become one of the three most popular clubs in Central and the Europe diaspora, and one of the three most successful teams in Central football including U1 and U4 winning 32 national titles.'
+   },
+   {
+   "name": "U6", "teamLogo": "images/team/logo6.png",  
+   "photo": "images/info/team6.jpg", 
+   "info": 'U6 is professional football club based in the capital-city of Central.The name U6 was inspired by the ancient work of Isocrates, Panathenaicus, where the orator praises the Athenians for their democratic education and their military superiority, used for the benefit of all Greeks.Today a part of U6, they are the oldest active football club in Central, initially founded only to practice this sport.'
+   }
+  ]
+
+
+
+
+
+
+}
+ 

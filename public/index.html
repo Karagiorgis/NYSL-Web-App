@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+  <div id="app">
+    <div class="image">
+      <div class="container">
+
+        <div class="main-wrapper">   
+
+          <div class="logo">
+
+            <div>
+
+              <div>
+                <img id="logo" src="images/team/logo1.png">
+              </div>
+
+              <div class="page-title">
+                <h1>nysl website app</h1>
+              </div>
+
+              <div class="nav-bar">
+                <a v-on:click="page = 'schedule',count = 3, filterTeams();">Schedule</a>
+                <a v-on:click="page = 'location',count = 3, filterTeams();">Location</a>
+                <a v-on:click="page = 'information',count = 3, direct();">Teams</a>
+                <a v-on:click="count = 3, checkStatus(), filterTeams();">Chat</a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div v-if="page == 'schedule'" id="schedule" class="main-schedule">
+
+            <div class="main-title">
+
+              <div>
+                <h2>Schedule</h2>
+                <p>*All games take place on Saturday</p>
+              </div>
+
+              <div class="filter-box">
+
+                <p class="filter">Filter By Team:</p>
+
+                <select v-on:change="count = 3, filterTeams();" id="team" v-model="selected">
+                  <option value="All">All</option>
+                  <option v-for="(value, key) in teams">{{value.name}}</option>
+                </select>
+
+              </div>
+
+            </div>
+
+            <div v-if="page == 'schedule' && games.length == 0" class="loader">
+
+              <div id="load" class="lds-spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+
+            <div class="main-box">
+
+              <div v-for="(value, key) in filter" class="game-box">
+
+                <div class="wrapper">
+
+                  <div class="box-info">
+
+                    <h2>Next Game</h2>
+
+                    <p>Location:
+                      <a id="address" @click="page = 'location', selectedLocation = value.location,count = 3, filterTeams();">
+                        {{value.location}}</a>
+                    </p>
+
+                    <p>Time: {{value.time}}</p>
+
+                  </div>
+
+                  <div class="box-teams">
+
+                    <div class="box-logo">
+
+                      <img :src="value.firstTeamLogo" @click="direct(value.firstTeamLogo)" class="game-img">
+
+                      <span id="team-name" class="team">{{value.firstTeam}}</span>
+
+                    </div>
+
+                    <div class="date">
+
+                      <span class="vs">VS</span>
+                      <span class="box-date">{{value.date}}</span>
+
+                    </div>
+
+                    <div class="box-logo">
+                      <img :src="value.SecondTeamLogo" @click="direct(value.SecondTeam)" class="game-img">
+                      <span class="team">{{value.SecondTeam}}</span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button id="showMore" @click="showMore(), filterTeams();">More Games</button>
+              <button v-if="count > 4" id="showLess" @click="showLess(), filterTeams();">Less Games</button>
+            </div>
+
+          </div>
+
+          <div v-if="page == 'location'" id="location" class="main-location">
+
+            <h2>Game Locations</h2>
+
+            <div class="box1">
+
+              <div class="location-box">
+
+                <p>Choose location:</p>
+
+                <select class="select-location" v-on:change="chooseLocation()" id="locations" v-model="selectedLocation">
+                  <option v-for="(value, key) in filterLocations">{{value}}</option>
+                </select>
+
+              </div>
+
+              <h2 v-if="selectedLocation">{{selectedLocation}}</h2>
+
+              <div class="location-body">
+
+
+                <div class="box2">
+                  <div>
+                    <p>Location</p>
+                  </div>
+                  <div>
+                    <p>Map</p>
+                  </div>
+                </div>
+
+                <div v-for="(value, key) in filterMaps" class="location">
+
+                  <div class="address-location">
+                    <p>Location: {{value.location}}</p>
+                    <p>Address: {{value.address}}</p>
+                  </div>
+
+                  <div>
+                    <iframe class="map" id="frame" :src="value.iframe"></iframe>
+                  </div>
+
+                </div>
+
+                <div class="info">
+
+                  <p>For more information about games and locations please contact us on this email :
+
+                    nysl@chisoccer.org</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div v-if="page == 'chat'" id="chat" class="main-chat">
+
+            <div class="login-page">
+
+              <p class="click-login">Click here to login with your google account</p>
+
+              <button class="login-btn" id="chat-login" @click="login();">Login</button>
+
+            </div>
+
+          </div>
+
+          <div v-if="page == 'main-chat' && user == true" class="all-chat">
+
+            <div class="chat-box">
+
+              <div class="chat-header">
+
+                <img class="msg-icon" src="images/msg.png" alt="message-icon">
+
+                <p v-if="userName">Welcome {{userName}}!</p>
+
+                <div class="logout-btn"><button class="logout" @click="logout();">Logout</button></div>
+
+              </div>
+
+              <div id="content" class="chat-body">
+
+                <p class="info-chat">We are online! Please type your message or comment and we will connect you to one of our operators.</p>
+
+                <div id="posts" v-for="(value,key) in chat">
+
+                  <div id="posts-msg" v-bind:class="{ active: (value.user == userName) }" class="messages-chat">
+
+                    <div class="user-info"><img :src="value.image" class="chat-user-img">
+                      <h3>{{value.user}}</h3>
+                    </div>
+
+                    <div>
+                      <p>{{value.msg}}</p>
+                    </div>
+
+                    <div class="time">{{value.time}}</div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div id="err"></div>
+
+            </div>
+
+            <div class="chat-text">
+
+              <div class="chat-msg">
+
+                <p>Message</p>: <textarea type="text" id="textInput" cols="40" rows="5"></textarea>
+
+                <button @click="writeNewPost(),scrollToBottom();">Send</button>
+
+              </div>
+            </div>
+          </div>
+
+          <div v-if="page == 'information'" id="information">
+
+            <div>
+              <h2>Team Information</h2>
+            </div>
+
+            <div class="location-box">
+
+              <button id="back" v-on:click="page = 'schedule',count = 3, filterTeams();">Go Back</button>
+
+              <p class="filter">Choose a Team:</p>
+
+              <select class="info-select" v-on:change="filterInfo();" v-model="selectedInfo">
+                <option v-for="(value, key) in teams">{{value.name}}</option>
+              </select>
+
+            </div>
+
+            <div class="info-wrap" v-for="(value, key) in teamInfo">
+
+              <div class="team-info-head">
+
+
+                <div class="team-info-img">
+
+                  <div class="team-info-land">
+
+                    <div><img class="team-info-logo" :src="value.teamLogo"></div>
+
+                    <div>
+                      <h3>{{value.name}}</h3>
+                    </div>
+
+                  </div>
+
+                  <div><img class="info-bottom-img" :src="value.photo"></div>
+
+                </div>
+
+                <div class="team-info-body">
+
+                  <div class="team-para">
+
+                    <div>
+                      <p>{{value.info}}</p>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+
+          <div class="bottom"><img class="image-footer" src="images/team/logo1.png" alt="logo"></div>
+
+          <div class="footer-text">
+            <p>&copy; NYSL 2019</p>
+          </div>
+
+          <div class="icons">
+            <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="http://www.youtube.com" class="fa fa-youtube"></a>
+            <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCbx7jYrfVQ-DkWrEo-jBxUIcNQ3vzizNY",
+      authDomain: "nysl-website-app.firebaseapp.com",
+      databaseURL: "https://nysl-website-app.firebaseio.com",
+      projectId: "nysl-website-app",
+      storageBucket: "",
+      messagingSenderId: "504547801183",
+      appId: "1:504547801183:web:0e0ce507f0bdb852"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="scripts/data.js"></script>
+
+</body>
+
+</html>
